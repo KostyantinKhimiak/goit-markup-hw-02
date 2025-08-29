@@ -126,7 +126,7 @@ color: #434455;
 }
 
 .team{
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title{
@@ -141,6 +141,10 @@ text-transform: capitalize;
 
 .team-list{
     list-style: none;
+    background-color: #FFFFFF;
+}
+
+.team-list-item{
     background-color: #FFFFFF;
 }
 
