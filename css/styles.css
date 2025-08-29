@@ -44,12 +44,29 @@ text-decoration: none;
 font-style: normal;
 }
 
+.header-contacts-link:hover{
+    color: #404bbf;
+}
+
+.header-contacts-link:focus{
+    color: #404bbf;
+}
+
+.header-menu-link:hover{
+    color: #404bbf
+}
+
+.header-menu-link:focus{
+    color: #404bbf;
+}
+
 .header-menu-list{
     list-style: none;
 }
 
 .header-contacts-list{
     list-style: none;
+    font-style: normal
 }
 
 .main{
@@ -73,6 +90,15 @@ line-height: 150%;
 letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
+background-color: #4D5AE5;
+}
+
+.main-btn:focus {
+     background-color: #404BBF;
+}
+
+.main-btn:hover{
+    background-color: #404BBF;
 }
 
 .features-list{
@@ -142,6 +168,7 @@ text-transform: capitalize;
 
 .portfolio-list{
     list-style: none;
+    color: #FFFFFF;
 }
 
 .portfolio-subtitle{
@@ -180,7 +207,7 @@ font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color: #4d5ae5;
 text-decoration: none;
 }
 
